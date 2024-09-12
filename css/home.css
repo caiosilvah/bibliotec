@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display:flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat",system-ui;
+}
+
+header{
+    background-color: #26333D;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header nav{
+    width:300px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.layout-grid{
+    margin:0 auto;
+    max-width: 992px;
+    width: 100%;
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+h1 {
+    width: 100%;
+    
+    margin-bottom: 10px; /* Adjust margin as needed */
+    margin-top: 20px;
+    font-family: "Montserrat", system-ui;
+}
+.titulo{
+    width: 100%;
+}
+
+.hrmenor{
+    border:  3px solid aqua;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.hrmaior{
+    border:  3px solid aqua;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+
+section{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+main{
+    width: 100%;
+    height: 950px;
+}
+
+.bibliotec-flex article{
+    margin-top: 80px;
+    height: 300px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 3px solid ;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.bibliotec-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: -90;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.borda {
+    border-top: -120;
+    border: 3px solid;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    background-color: aliceblue;
+}
+
+article div.borda{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+   /* align-items: center;*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.livroLayoutGrid{
+    
+        margin:0 auto;
+        max-width: 992px;
+        width: 100%;
+}
+
+h3 {
+
+    margin-top: 130px;
+    margin-bottom:80px ;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomendados-flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+     
+.recomendados-flex .favoritos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.favoritos img {
+    
+    width: 190px;
+    height: 300px;
+    display: flex;
+    margin-top: 10px;
+   
+}
+
+footer{
+    background-color: #26333D;
+    height: 400px;
+    width: 100%;
+}
+
+.conteudo{
+        height: 70%;
+        width: 170px;
+        margin-right: 50px;
+}
+
+.logo-footer {
+    border: 2px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-footer {
+    width: 450px;
+    height: 240px;
+    border: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer img{
+    height:50px ;
+    width: 200px;
+    
+    flex-direction: column ;
+}
+
+.conteudoS{
+        height: 70%;
+        width: 170px;
+}
+
+.navSiga{
+    margin-left:11px;
+    display: flex;
+    justify-content: space-between;
+}
+.navIMG img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+footer h1{
+    color: aqua;
+    font-size: 15px;
+}
+
+footer hr {
+    border: 2px solid rgb(57, 57, 57);
+    margin-top: 44px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+ footer p {
+    color: white;
+}
